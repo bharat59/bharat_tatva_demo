@@ -1,18 +1,17 @@
-package com.example.bharat_tatva_demo
+package com.example.bharat_tatva_demo.ui.view.activity
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import com.example.bharat_tatva_demo.databinding.ActivityMainBinding
+import androidx.activity.viewModels
 
+import androidx.appcompat.app.AppCompatActivity
+import com.example.bharat_tatva_demo.databinding.ActivityMainBinding
+import com.example.bharat_tatva_demo.ui.viewmodel.MainViewModel
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
+    private val viewModel : MainViewModel by viewModels()
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
