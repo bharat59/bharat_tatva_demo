@@ -11,4 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="enter_number">Enter number</string>
     <string name="submit">Submit</string>
+
+    <string name="msg_number_is_not_rooted">Number is not square rooted!</string>
+    <string name="msg_you_won_the_game">You won the game!</string>
 </resources>
