@@ -57,7 +57,6 @@ dependencies {
     kapt 'androidx.hilt:hilt-compiler:1.0.0'
 
     //viewModel ktx
-    implementation("androidx.core:core-ktx:1.7.0")
     implementation 'androidx.activity:activity-ktx:1.4.0'
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
@@ -65,4 +64,13 @@ dependencies {
 
     //Co-routines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1")
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
 }

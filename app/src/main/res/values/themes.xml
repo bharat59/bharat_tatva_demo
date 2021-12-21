@@ -22,4 +22,14 @@
     <style name="Theme.Bharat_Tatva_demo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Bharat_Tatva_demo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CommonTextStyle18">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CommonTextStyle15">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
 </resources>
